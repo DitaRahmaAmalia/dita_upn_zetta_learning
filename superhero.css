@@ -1,0 +1,29 @@
+body{
+    background-image: url('img/blkng.jpg');
+    background-size: 100%;
+}
+
+.main{
+    background-image: url('img/superhero.jpg');  
+}
+
+.judul{
+    font-size: 150;
+    color: red;
+    text-align: center;
+}
+
+.img img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text{
+    text-align: center;
+}
+
+.kekuatan{
+    text-align: center;
+    color: green;
+}

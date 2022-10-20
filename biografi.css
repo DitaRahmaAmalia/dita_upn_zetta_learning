@@ -1,0 +1,29 @@
+body{
+    background-image: url('img/ground.jpg');
+    background-size: 100%;
+
+}
+
+.biografi h1{
+    font-size: 60;
+    color: purple;
+    text-align: center;
+}
+
+.card{
+    text-align: center;
+}
+
+.card data h3{
+    text-align: center;
+}
+
+.card data p{
+    text-align: center;
+    font-size: 15;
+}
+
+.data span{
+    text-align: center;
+    font-size: 22;
+}

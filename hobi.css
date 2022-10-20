@@ -1,0 +1,27 @@
+body{
+    background-image: url('img/latar.jpg');
+    background-size: 100%;
+}
+
+.hobi h1{
+    text-align: center;
+    color: palevioletred;
+    font-size: 50;
+}
+
+.hobi h2{
+    text-align: center;
+    color: purple;
+}
+
+.pertama tr th{
+    background-color: green;
+}
+
+.kedua tr th{
+    background-color: red;
+}
+
+.ketiga tr th{
+    background-color: blue;
+}
