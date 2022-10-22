@@ -1,37 +1,44 @@
 *{
     box-sizing: border-box;
 }
+
 .box h1{
     color: purple;
 }
+
 .kartu{
     background-color: white;
     padding: 10px;
     box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.4);
     border-radius: 10px;
 }
+
 .kartu img{
     height: 150px;
     width:150px;
 }
+
 body{
     background-color:pink;
     text-align:center;
 }
+
 .baris{
     width: 100%;
     margin:0 5px;
-
 }
+
 .kolom{
     width: 25%;
     float: left;
     padding: 0 16px;
 }
+
 .kartu{
     background-color: white;
     padding: 16px;
 }
+
 .kartu:hover{
     background-color:palevioletred ;
     box-shadow: 0 16px 32px 0 rgba(0, 0, 0, 0.8);
