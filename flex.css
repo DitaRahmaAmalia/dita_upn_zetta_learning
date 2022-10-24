@@ -1,0 +1,178 @@
+
+ .header{
+    overflow: hidden;
+    background-color: white;
+    width:100%;
+    height:20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 10px;
+    z-index: 1000;
+    position: fixed;
+    width: 97%;
+  }
+  
+  /* Style the header links */
+  .header a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+   
+  }
+  
+  /* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+  .header a.logo {
+    font-size: 30px;
+    font-weight: bold;
+    color: palevioletred;
+    text-align: center;
+  }
+  
+  /* Change the background color on mouse-over */
+  .header a:hover {
+    background-color: white;
+    color: black;
+  }
+  
+  /* Float the link section to the right */
+  .header-right {
+    float: right;
+  }
+  
+  /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
+  @media screen and (max-width: 500px) {
+    .header a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    .header-right {
+      float: none;
+    }
+  }
+
+  body{
+    font-family: 'Source Sans Pro', sans-serif;
+    align-items:center;
+    background-color:paleturquoise;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: space-evenly;
+    border: 2px white solid;
+    background-color: pink;
+    margin: 2vh 2vh;
+    flex-wrap: wrap;
+  }
+  
+
+.card {
+   
+   
+    border-radius: 10px;
+    box-shadow:0 10px 10px rgba(0, 0, 0, .1);
+    background-color: rgb(255, 255, 255);
+    transition: all 0.5s;
+    float: left;
+    text-align: center;
+}
+.head-card{
+    padding: 20%;
+    padding-bottom:10px;
+    float: left;
+    
+}
+.head-card img{
+    width: 120%;
+    height: 300px;
+    object-fit: cover;
+
+}
+.body-card{
+    padding: 10px 15px;
+    
+}
+.body-card h2{
+    margin: 0;
+    text-align: center;
+    font-size: 24px;
+    padding-top: 10px;
+}
+.body-card p{
+    margin: 0;
+    text-align: center;
+    font-size: 15px;
+    color: rgb(169, 169, 169);
+}
+.body-card .buy{
+    background-color: palevioletred;
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    text-align: center;
+    transition: all 0.5s;
+}
+.body-card h3{
+    color: rgb(0,0,0);
+    text-align: center;
+    font-size: 22px;
+}
+.buy h4{
+    color: aliceblue;
+    padding-top: 8px;
+}
+.rating{
+    color:brown;
+    text-align: center;
+    font-size: 22px;
+
+}
+.buy:hover{
+    background-color: rgb(141,0, 94);
+    cursor: pointer;
+}
+.card:hover{
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+    cursor: pointer;
+}
+@media screen and (min-width: 900px) {
+    .card {
+        grid-column: span 4;
+    }
+       
+}
+@media screen and (min-width: 760px) {
+    .card {
+        width: 350px;
+        margin: 30px;
+    }
+}
+.button{
+    
+    text-align: center;
+    margin:0 auto;
+    padding: 0%;
+    width: 250px;
+    height: 600px;
+    
+}
+.btn{
+    background:white;
+    color:palevioletred;
+    width: 200px;
+    padding: 18px;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+    box-shadow:0 0 10px rgb(0, 0, 0, 0.1);
+    
+}
