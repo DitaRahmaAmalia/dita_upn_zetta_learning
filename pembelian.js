@@ -1,25 +1,23 @@
-function calculatorHargaBuku(buku, diskon, pajak){
+function pembelianBuku (buku, diskon, pajak){
     let result = 0;
     if(buku && buku.harga){
-        const harga=buku.harga;
-        const totalDiskon=harga * (diskon/100);
-        const hargaSetelahDiskon = harga - totalDiskon;
-        const jumlahPajak = hargaSetelahDiskon * (pajak/100);
-        const hargaSetelahPajak = hargaSetelahDiskon + jumlahPajak;
+        const harga = buku.harga;
+        const totalDiskon = harga * (diskon/100);
+        const hargaBukuSetelahDiskon = harga - totalDiskon;
+        const totalPajak = hargaBukuSetelahDiskon * (pajak/100);
+        const hargaTotal = hargaBukuSetelahDiskon + totalPajak;
         
 
         console.group();
-        console.log("judul buku : ", buku.title);
-        console.log("Harga buku : ", harga);
-        console.log("Presentase diskon : ", diskon,"%");
-        console.log("Harga setelah diskon : ",hargaSetelahDiskon);
-        console.log("Presentase PPN : ",pajak,"%");
-        console.log("Total Pembayaran buku : ",hargaSetelahPajak);
+        console.log("Judul Buku : ", buku.judul);
+        console.log("Harga Buku : ", harga);
+        console.log("Presentase Diskon : ", diskon,"%");
+        console.log("Harga Buku Setelah Diskon : ", hargaBukuSetelahDiskon);
+        console.log("Presentase Pajak : ", pajak,"%");
+        console.log("Harga Total : ", hargaTotal);
         console.groupEnd();
     }   
-
     return 0;
 }
 
-calculatorHargaBuku({title: "buku matahari", harga:15000, publicity: true}, 50, 10);
-calculatorHargaBuku({title: "buku hujan", harga:10000, publicity: false}, 50, 10);
+pembelianBuku({judul: "Ikhlas Paling Serius", harga:55500, publicity: true}, 50, 10);
