@@ -1,8 +1,11 @@
-function Slicer (text, awal_index, akhir_index) {
-    var hasil = "";
-    for (var i = awal_index; i < akhir_index; i++) {
-        hasil += text[i];
-    }
-    return hasil;
+var mix1 = [1, 'data', '3', 'result'];
+var mix2 = ['Bejo', 'has', '4', 'sport', 'car'];
+function kombinasi(text) {
+    var result = "";
+    text.map(function (text) {
+        result = result + " " + text;
+    });
+    return result;
 }
-console.log(Slicer("Learning Typescript is different than Javascript", 9, 19));
+console.log(kombinasi(mix1));
+console.log(kombinasi(mix2));
