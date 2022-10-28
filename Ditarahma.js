@@ -1,9 +1,8 @@
-"use strict";
-function slicer(text, first_index, last_index) {
+function Slicer (text, awal_index, akhir_index) {
     var hasil = "";
-    for (var i = first_index; i < last_index; i++) {
+    for (var i = awal_index; i < akhir_index; i++) {
         hasil += text[i];
     }
     return hasil;
 }
-console.log(slicer("Learning Typescript is different than Javascript", 9, 19));
+console.log(Slicer("Learning Typescript is different than Javascript", 9, 19));

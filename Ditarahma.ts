@@ -1,6 +1,6 @@
-function Slicer(text: string, first_index: number, last_index: number): string {
+function Slicer(text: string, awal_index: number, akhir_index: number): string {
     var hasil = "";
-    for (var i = first_index; i < last_index; i++) {
+    for (var i = awal_index; i < akhir_index; i++) {
         hasil += text[i];
     }
     return hasil;
