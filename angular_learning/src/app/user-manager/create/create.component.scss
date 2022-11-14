@@ -1,70 +1,81 @@
 .example-card {
-    width: 600px;
-    justify-content: center;
-    align-items: center;
-    
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 100px;
-  }
+  width: 600px;
+  justify-content: center;
+  align-items: center;
   
-  .example-header-image {
-    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
-    background-size: cover;
-  }
-  input{
-    width: 100%;
-  }
-  .example-full-width {
-    width: 100%;
-   
-  }
-  mat-radio-button{
-    margin-left: 30px;
-   
-  }
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+}
 
-  ul{
-    list-style-type:none;
-    border: 1px solid rgba(99, 98, 98, 0.512);
-    padding-inline-start: 15px;
-    padding-inline-end: 15px;
-    border-radius: 5px;
-    
-  }
-  li{
-    
-   margin-top: 10px;
-  }
-  .half{
-    width: 30.5%;
-    margin-right: 19px;
-    
-  }
-#end{
-    margin-right: 0px;
- }
-  .sbm{
-    width: 600px;
-    margin-top: 20px;
-    background:  linear-gradient(45deg, rgb(255, 20, 216),rgb(0, 132, 255));
-    color: white;
-    font-weight: bold;
-    font-size: 15px;
-    
-  }
-  .butt{
-    margin-left: auto;
-    margin-right: auto;
-   
-    width: 600px;
-  }
-  .example-spacer{
-    flex: 1 1 auto;
-  }
-
-  .atas{
-    margin-top: 20px;
-  }
-  
+.example-header-image {
+  background-size: cover;
+}
+input{
+  width: 100%;
+}
+.example-full-width {
+  width: 100%;
  
+}
+mat-radio-button{
+  margin-left: 30px;
+ 
+}
+
+ul{
+  list-style-type:none;
+  border: 1px solid rgba(99, 98, 98, 0.512);
+  padding-inline-start: 15px;
+  padding-inline-end: 15px;
+  border-radius: 5px;
+  
+}
+li{
+  
+ margin-top: 10px;
+}
+.half{
+  width: 30.5%;
+  margin-right: 19px;
+  
+}
+#end{
+  margin-right: 0px;
+}
+.sbm{
+  width: 600px;
+  margin-top: 20px;
+  background:  linear-gradient(45deg, rgb(255, 20, 216),rgb(0, 132, 255));
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  
+}
+.butt{
+  margin-left: auto;
+  margin-right: auto;
+ 
+  width: 600px;
+}
+.example-spacer{
+  flex: 1 1 auto;
+}
+
+.atas{
+  margin-top: 20px;
+}
+.add{
+  width: 500px;
+  margin-top: 20px;
+  font-size: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: aliceblue;
+ }
+
+ .addrs{
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+ }
